@@ -10,6 +10,7 @@ $(document).ready(function () {
     $("#currentDay").text(moment().format('dddd MMMM Do YYYY'));
     
     // Time blocks are color coded to indicate past=grey, present=red, future=green
+    // This function loops through time blocks on app launch
     function timeBlockColor() {
         var hour = moment().hours();
     
@@ -37,6 +38,7 @@ $(document).ready(function () {
         // THEN the text for that event is saved in local storage
         // set varibles as key value pairs 
         localStorage.setItem(time, plan);
+        // Inspect local store in DevTools to see the entries
     });
     
     // WHEN I refresh the page
