@@ -45,7 +45,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 Used this link to improve my skills when using jQuery.
 https://www.w3schools.com/jquery/default.asp
 
-
+Used this starter code for my project.
+https://github.com/coding-boot-camp/crispy-octo-meme.git
 
 
 ## License <a name="license"></a>
