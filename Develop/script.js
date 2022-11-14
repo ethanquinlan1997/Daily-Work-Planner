@@ -4,9 +4,6 @@
 $(document).ready(function () {
     console.log( 'ready!');
 
-
-
-
 $("#currentDay").text(dayjs().format('dddd MMMM D, YYYY'));
 
 var hour = dayjs().format("HH");
@@ -18,7 +15,7 @@ var currentHour = hour;
       
     clearBtn.click(function(event) {
         event.preventDefault;
-        $("text-area").val("");
+        $(".description").val("");
         localStorage.clear();
     });
 
@@ -41,7 +38,7 @@ var currentHour = hour;
       saveBtn.click(function(event) {
         event.preventDefault();
         var time = $(this).siblings('.hour').text();
-        var plan = $(this).siblings(".plan").val();
+        var plan = $(this).siblings('.description').val();
         localStorage.setItem(time, plan);
     });
 
