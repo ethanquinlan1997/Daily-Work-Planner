@@ -37,6 +37,7 @@ body {
   
   .time-block {
     border-radius: 15px;
+    text-align: center;
   }
   
   .row {
@@ -44,9 +45,13 @@ body {
   }
   
   .hour {
-    background-color: #2e829c;
-    color: #000000;
-    border-top: 1px dashed #000000;
+  background-color: #2e829c;
+  color: #000000;
+    
+  padding-top: 3%;
+  border: solid black 1px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px
   }
   
   .past {
@@ -64,9 +69,17 @@ body {
     color: white;
   }
 
-  .btn-secondary {
+  .clearBTN {
     display: inline-block;
     color: #77dd77;
+    border: solid;
+    border-color: #706170;
+    background-color: #020d0f;
+  }
+
+  .clearBTN i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
   }
   
   .saveBtn {
