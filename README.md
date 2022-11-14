@@ -23,7 +23,7 @@ Styled with minimal:
 ## Application Links <a name="application-links"></a>
 
 - GitHub Repository: https://github.com/ethanquinlan1997/Daily-Work-Planner
-- Live Website: 
+- Live Website: https://ethanquinlan1997.github.io/Daily-Work-Planner/
 
 ## Screenshots <a name="screenshot"></a>
 
